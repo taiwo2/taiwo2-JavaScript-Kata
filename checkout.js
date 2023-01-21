@@ -1,3 +1,5 @@
+import {calculate}from './productPrice.js';
+
 function ShoppingCart() {
 	this.items = {};
 }
@@ -7,6 +9,7 @@ ShoppingCart.prototype.totalItem = function() {
 
 	for(let itemSku in this.items) {
 		let itemQuantity = this.items[itemSku];
+    totalItem += calculate(itemSku, itemQuantity);
 	}
 
 	return totalItem;
