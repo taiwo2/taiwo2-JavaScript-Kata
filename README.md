@@ -17,7 +17,4 @@ Run `npm install` / `npm i` from the Terminal.
 
 ## Testing :
 
-$ mocha from the terminal.
-
-- mocha test
-- run mocha
+$ `mocha` from the terminal.
